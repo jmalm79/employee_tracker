@@ -1,4 +1,3 @@
-
 USE employeeDB;
 
 INSERT INTO department (dept_id, dept_name)
@@ -8,8 +7,8 @@ VALUES
     (30, "Purchasing"),
     (40, "Production"),
     (50, "Shipping & Receiving"),
-    (90, "Human Resources"),
-    (100, "Facilities");
+    (60, "Human Resources"),
+    (70, "Facilities");
 
 
 INSERT INTO employee_role (role_id, title, salary, dept_id, is_manager) 
@@ -19,8 +18,8 @@ VALUES
     (31, "Purchasing Manager", 150000, 30, TRUE),
     (41, "Production Manager", 75000, 40, TRUE),
     (51, "Shipping & Receiving Manager", 50000, 50, TRUE),
-    (91, "Human Resources Manager", 100000, 90, TRUE),
-    (101, "Facilities Manager", 80000, 100, TRUE);
+    (61, "Human Resources Manager", 100000, 60, TRUE),
+    (71, "Facilities Manager", 80000, 70, TRUE);
 
 INSERT INTO employee_role (role_id, title, salary, dept_id) 
 VALUES   
@@ -35,18 +34,18 @@ VALUES
     (44, "Material Handler", 35000, 40),
     (52, "Shipping Associate", 32500, 50),
     (53, "Receiving Associate", 32500, 50),
-    (92, "HR Generalist", 65000, 90),
-    (102, "Maintenance Technician", 55000, 100),
-    (103, "Custodian", 37500, 100);
+    (62, "HR Generalist", 65000, 60),
+    (72, "Maintenance Technician", 55000, 70),
+    (73, "Custodian", 37500, 70);
     
 INSERT INTO employee (first_name, last_name, role_id)
 VALUES
-    ("Aaron", "Paul",11),
-    ("Mindy", "Kaling",13),
-    ("Oscar","Isaac",31),
-    ("Kate","Hudson",103),
-    ("Jason","Momoa",43),
-    ("John","Krasinski",31),
-    ("Kevin","Hart",92),
-    ("Cooper","Barnes",102),
-    ("Jennifer","Hewitt",44);
+    ("Aaron", "Paul", 11),
+    ("Mindy", "Kaling", 13),
+    ("Oscar","Isaac", 31),
+    ("Kate","Hudson", 73),
+    ("Jason","Momoa", 43),
+    ("John","Krasinski", 31),
+    ("Kevin","Hart", 62),
+    ("Cooper","Barnes", 72),
+    ("Jennifer","Hewitt", 44);

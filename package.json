@@ -1,0 +1,33 @@
+{
+  "name": "employee_tracker",
+  "version": "1.0.0",
+  "description": "Employee Tracker Application for small to medium business.",
+  "main": "node index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmalm79/employee_tracker.git"
+  },
+  "keywords": [
+    "Employee",
+    "Tracker"
+  ],
+  "author": "Josh Alm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmalm79/employee_tracker/issues"
+  },
+  "homepage": "https://github.com/jmalm79/employee_tracker#readme",
+  "dependencies": {
+    "asciiart-logo": "^0.2.6",
+    "console.table": "^0.10.0",
+    "inquirer": "^8.0.0",
+    "mysql": "^2.18.1"
+  }
+}

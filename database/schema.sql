@@ -6,7 +6,7 @@ USE employeeDB;
 
 CREATE TABLE department (
 
-    dept_id INTEGER(10) NOT NULL,
+    dept_id INTEGER(10) NOT NULL AUTO_INCREMENT,
 
     dept_name VARCHAR(30),
 
@@ -16,7 +16,7 @@ CREATE TABLE department (
 
 CREATE TABLE employee_role (
 
-    role_id INTEGER(10) NOT NULL,
+    role_id INTEGER(10) AUTO_INCREMENT NOT NULL,
 
     title VARCHAR(40) NOT NULL,
 
